@@ -1,0 +1,82 @@
+/* Styles for the Modal Component */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal .modal-content {
+  background-color: #fefefe;
+  position: relative;
+  border-radius: 3px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.modal-content.large {
+  width: 90%;
+  height: 90%;
+}
+
+.modal-content.medium {
+  width: 75%;
+  height: 75%;
+}
+
+.modal-content.small {
+  width: 50%;
+  width: 50%;
+}
+
+.modal .modal-content.fadein {
+  animation-name: fadein;
+  animation-duration: 0.4s;
+  display: block;
+}
+
+.modal .modal-header {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ececec;
+}
+
+.modal .modal-body {
+  text-align: left;
+  min-height: 100px;
+}
+
+.modal .modal-footer {
+  padding: 15px;
+  text-align: left;
+  border-top: 1px solid #e5e5e5;
+  background: #ececec;
+  border-radius: 0 0 8px 8px;
+}
+
+.close-icon {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.modal.show {
+  display: flex;
+}
+
+/* Add Animation */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

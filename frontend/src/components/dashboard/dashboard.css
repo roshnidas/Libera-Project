@@ -1,0 +1,73 @@
+/* Styles for dashboard component */
+.libera-project-dashboard {
+  margin: 56px;
+}
+
+.libera-project-dashboard .normal-card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 80px;
+  width: 300px;
+  margin-right: 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.libera-project-dashboard-teams {
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.add-team-name {
+  margin-bottom: 16px;
+}
+
+.add-to-team .textbox-component{
+  margin-bottom: 8px;
+}
+
+.libera-project-dashboard-superhero {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.superhero-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.accordion {
+  margin-bottom: 16px;
+}
+
+.libera-project-dashboard-createteam .button-component {
+  margin: 16px 0;
+}
+
+.libera-project-dashboard-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .libera-project-dashboard .normal-card {
+    height: 80px;
+    width: 80px;
+  }
+
+  .libera-project-dashboard-teams {
+    grid-template-columns: auto;
+  }
+
+  .libera-project-dashboard-superhero {
+    grid-template-columns: auto;
+  }
+}
