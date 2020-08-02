@@ -4,7 +4,7 @@ const { Joi } = require("celebrate");
 const team = {
     body: {
         name: Joi.string().required(),
-        meanAlignment: Joi.string()
+        meanAlignment: Joi.string().valid('GOOD', 'BAD', 'NEUTRAL')
     }
 };
 
