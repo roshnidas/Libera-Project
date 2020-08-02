@@ -11,12 +11,9 @@ The Project currently runs on the local environment of the user. The frontend is
 ## The Building Blocks of the Application
 ```
 1. Frontend
-2. Backend
-
-### Frontend
 The frontend of the Application is built using React and React Hooks.
 
-### Backend
+2. Backend
 The frontend of the Application is built using Node.js.
 ```
 
@@ -135,9 +132,9 @@ Note: Currently the unit test cases of the APIs are not present but can be added
 ## Screenshots of the User Interface
 ```
 1. Desktop View: 
-   <img src="./snapshots/desktop_view.png" alt="Desktop View">
+   <img src="https://github.com/roshnidas/Libera-Project/blob/master/snapshots/desktop_view.png" alt="Desktop View">
 2. Mobile View:
-   <img src="'./../snapshots/mobile_view.png" alt="Mobile View">
+   <img src="https://github.com/roshnidas/Libera-Project/blob/master/snapshots/mobile_view.png" alt="Mobile View">
 ```
 
 ## Step by Step guide to use the Application
