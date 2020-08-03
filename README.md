@@ -132,8 +132,8 @@ Note: Currently the unit test cases of the APIs are not present but can be added
 ## Step by Step guide to use the Application
 ```
 1. The application loads with Pre-defined team names.
-2. To Add a new team, click on the Create Team CTA and provide Team Name and Alignment [Either Good, Bad, Neutral]. Alignment is not mandatory.
-3. To Add a new team, click on the Create Superhero CTA and provide Superhero Name and Alignment [Either Good, Bad, Neutral].
+2. To Add a new team, click on the Create Team CTA and provide Team Name and Alignment [Either GOOD, BAD, NEUTRAL]. Alignment is not mandatory.
+3. To Add a new superhero, click on the Create Superhero CTA and provide Superhero Name and Alignment [Either GOOD, BAD, NEUTRAL].
 4. To Check the Team and Superhero, Click on the Cards to check the details.
 5. To Delete a Team, click on the card and click Delete Team CTA.
 6. To Delete a Superhero, click on the card and click Delete Superhero CTA.
